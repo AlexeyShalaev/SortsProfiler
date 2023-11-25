@@ -37,3 +37,9 @@
 - [MergeSortHybridTimes_10](https://github.com/AlexeyShalaev/SortsProfiler/blob/master/Graphics/MergeSortHybridTimes_10.png) - измерения времени работы гибридного алгоритма MERGE+INSERTION SORT (INSERTION SORT вызывается при 10 элементах в массиве)
 - [MergeSortHybridTimes_20](https://github.com/AlexeyShalaev/SortsProfiler/blob/master/Graphics/MergeSortHybridTimes_20.png) - измерения времени работы гибридного алгоритма MERGE+INSERTION SORT (INSERTION SORT вызывается при 20 элементах в массиве)
 - [MergeSortHybridTimes_50](https://github.com/AlexeyShalaev/SortsProfiler/blob/master/Graphics/MergeSortHybridTimes_50.png) - измерения времени работы гибридного алгоритма MERGE+INSERTION SORT (INSERTION SORT вызывается при 50 элементах в массиве)
+
+## Вывод
+Из графиков, а также сводного графика, представленного ниже, можно сделать вывод, что Гибридная сортировка лучше обычной. Более того, среди гибридных сортировок лучше проявляет себя та, которая применяет сортировку вставками для 20 элементов.
+
+![image](https://github.com/AlexeyShalaev/SortsProfiler/assets/75322386/d429c134-abbb-44ee-bddb-2469b6331ff8)
+
