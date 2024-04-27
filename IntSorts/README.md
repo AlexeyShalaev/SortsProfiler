@@ -1,4 +1,4 @@
-# SortsProfiler
+# IntSortsProfiler
 
 ## Генератор тестовых данных & Реализация гибридного алгоритма MERGE+INSERTION SORT
 
