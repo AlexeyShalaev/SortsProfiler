@@ -335,7 +335,8 @@ public:
          * duration - microseconds
          * comparisons - count
          */
-        vector<string> dataset;
+        auto header = CSV("arrayType", "sortMethod", "arraySize", "duration", "comparisons");
+        vector<string> dataset = {header};
         benchmark("unsorted", unsortedStrings, dataset);
         benchmark("reversed_sorted", reverseSortedStrings, dataset);
         benchmark("almost_sorted", almostSortedStrings, dataset);

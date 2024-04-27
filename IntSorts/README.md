@@ -2,9 +2,9 @@
 
 ## Генератор тестовых данных & Реализация гибридного алгоритма MERGE+INSERTION SORT
 
-- [array_sorters](https://github.com/AlexeyShalaev/SortsProfiler/blob/master/MeasurementGenerator/array_sorters.h) (Сортировки массивов)
-- [array_generators](https://github.com/AlexeyShalaev/SortsProfiler/blob/master/MeasurementGenerator/array_generators.h) (Генератор массивов)
-- [main](https://github.com/AlexeyShalaev/SortsProfiler/blob/master/MeasurementGenerator/main.cpp) (Генерация тестовых данных и их сортировка)
+- [array_sorters](https://github.com/AlexeyShalaev/SortsProfiler/blob/master/IntSorts/MeasurementGenerator/array_sorters.h) (Сортировки массивов)
+- [array_generators](https://github.com/AlexeyShalaev/SortsProfiler/blob/master/IntSorts/MeasurementGenerator/array_generators.h) (Генератор массивов)
+- [main](https://github.com/AlexeyShalaev/SortsProfiler/blob/master/IntSorts/MeasurementGenerator/main.cpp) (Генерация тестовых данных и их сортировка)
 
 ## Исходные данные, использованные для построения графиков
 
@@ -14,15 +14,15 @@
 - PartiallySortedArray - массивы, которые «почти» отсортированы.
 
 ### Dataset
-- [MergeSortTimes](https://github.com/AlexeyShalaev/SortsProfiler/blob/master/Measurements/MergeSortTimes.txt) - измерения времени работы стандартной реализации алгоритма MERGE SORT
-- [MergeSortHybridTimes_5](https://github.com/AlexeyShalaev/SortsProfiler/blob/master/Measurements/MergeSortHybridTimes_5.txt) - измерения времени работы гибридного алгоритма MERGE+INSERTION SORT (INSERTION SORT вызывается при 5 элементах в массиве)
-- [MergeSortHybridTimes_10](https://github.com/AlexeyShalaev/SortsProfiler/blob/master/Measurements/MergeSortHybridTimes_10.txt) - измерения времени работы гибридного алгоритма MERGE+INSERTION SORT (INSERTION SORT вызывается при 10 элементах в массиве)
-- [MergeSortHybridTimes_20](https://github.com/AlexeyShalaev/SortsProfiler/blob/master/Measurements/MergeSortHybridTimes_20.txt) - измерения времени работы гибридного алгоритма MERGE+INSERTION SORT (INSERTION SORT вызывается при 20 элементах в массиве)
-- [MergeSortHybridTimes_50](https://github.com/AlexeyShalaev/SortsProfiler/blob/master/Measurements/MergeSortHybridTimes_50.txt) - измерения времени работы гибридного алгоритма MERGE+INSERTION SORT (INSERTION SORT вызывается при 50 элементах в массиве)
+- [MergeSortTimes](https://github.com/AlexeyShalaev/SortsProfiler/blob/master/IntSorts/Measurements/MergeSortTimes.txt) - измерения времени работы стандартной реализации алгоритма MERGE SORT
+- [MergeSortHybridTimes_5](https://github.com/AlexeyShalaev/SortsProfiler/blob/master/IntSorts/Measurements/MergeSortHybridTimes_5.txt) - измерения времени работы гибридного алгоритма MERGE+INSERTION SORT (INSERTION SORT вызывается при 5 элементах в массиве)
+- [MergeSortHybridTimes_10](https://github.com/AlexeyShalaev/SortsProfiler/blob/master/IntSorts/Measurements/MergeSortHybridTimes_10.txt) - измерения времени работы гибридного алгоритма MERGE+INSERTION SORT (INSERTION SORT вызывается при 10 элементах в массиве)
+- [MergeSortHybridTimes_20](https://github.com/AlexeyShalaev/SortsProfiler/blob/master/IntSorts/Measurements/MergeSortHybridTimes_20.txt) - измерения времени работы гибридного алгоритма MERGE+INSERTION SORT (INSERTION SORT вызывается при 20 элементах в массиве)
+- [MergeSortHybridTimes_50](https://github.com/AlexeyShalaev/SortsProfiler/blob/master/IntSorts/Measurements/MergeSortHybridTimes_50.txt) - измерения времени работы гибридного алгоритма MERGE+INSERTION SORT (INSERTION SORT вызывается при 50 элементах в массиве)
 
   
 ## Генератора графиков
-[Visualizer](https://github.com/AlexeyShalaev/SortsProfiler/blob/master/Visualizer/main.py)
+[Visualizer](https://github.com/AlexeyShalaev/SortsProfiler/blob/master/IntSorts/Visualizer/main.py)
 
 ## Графики
 
@@ -32,11 +32,11 @@
 - PartiallySortedArray - массивы, которые «почти» отсортированы.
 
 ### Dataset
-- [MergeSortTimes](https://github.com/AlexeyShalaev/SortsProfiler/blob/master/Graphics/MergeSortTimes.png) - измерения времени работы стандартной реализации алгоритма MERGE SORT
-- [MergeSortHybridTimes_5](https://github.com/AlexeyShalaev/SortsProfiler/blob/master/Graphics/MergeSortHybridTimes_5.png) - измерения времени работы гибридного алгоритма MERGE+INSERTION SORT (INSERTION SORT вызывается при 5 элементах в массиве)
-- [MergeSortHybridTimes_10](https://github.com/AlexeyShalaev/SortsProfiler/blob/master/Graphics/MergeSortHybridTimes_10.png) - измерения времени работы гибридного алгоритма MERGE+INSERTION SORT (INSERTION SORT вызывается при 10 элементах в массиве)
-- [MergeSortHybridTimes_20](https://github.com/AlexeyShalaev/SortsProfiler/blob/master/Graphics/MergeSortHybridTimes_20.png) - измерения времени работы гибридного алгоритма MERGE+INSERTION SORT (INSERTION SORT вызывается при 20 элементах в массиве)
-- [MergeSortHybridTimes_50](https://github.com/AlexeyShalaev/SortsProfiler/blob/master/Graphics/MergeSortHybridTimes_50.png) - измерения времени работы гибридного алгоритма MERGE+INSERTION SORT (INSERTION SORT вызывается при 50 элементах в массиве)
+- [MergeSortTimes](https://github.com/AlexeyShalaev/SortsProfiler/blob/master/IntSorts/Graphics/MergeSortTimes.png) - измерения времени работы стандартной реализации алгоритма MERGE SORT
+- [MergeSortHybridTimes_5](https://github.com/AlexeyShalaev/SortsProfiler/blob/master/IntSorts/Graphics/MergeSortHybridTimes_5.png) - измерения времени работы гибридного алгоритма MERGE+INSERTION SORT (INSERTION SORT вызывается при 5 элементах в массиве)
+- [MergeSortHybridTimes_10](https://github.com/AlexeyShalaev/SortsProfiler/blob/master/IntSorts/Graphics/MergeSortHybridTimes_10.png) - измерения времени работы гибридного алгоритма MERGE+INSERTION SORT (INSERTION SORT вызывается при 10 элементах в массиве)
+- [MergeSortHybridTimes_20](https://github.com/AlexeyShalaev/SortsProfiler/blob/master/IntSorts/Graphics/MergeSortHybridTimes_20.png) - измерения времени работы гибридного алгоритма MERGE+INSERTION SORT (INSERTION SORT вызывается при 20 элементах в массиве)
+- [MergeSortHybridTimes_50](https://github.com/AlexeyShalaev/SortsProfiler/blob/master/IntSorts/Graphics/MergeSortHybridTimes_50.png) - измерения времени работы гибридного алгоритма MERGE+INSERTION SORT (INSERTION SORT вызывается при 50 элементах в массиве)
 
 ## Вывод
 Из графиков, а также сводного графика, представленного ниже, можно сделать вывод, что Гибридная сортировка лучше обычной. Более того, среди гибридных сортировок лучше проявляет себя та, которая применяет сортировку вставками для 20 элементов.

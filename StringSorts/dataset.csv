@@ -1,3 +1,4 @@
+arrayType;sortMethod;arraySize;duration;comparisons
 unsorted;std_quicksort;100;28;802
 unsorted;std_mergesort;100;19;1231
 unsorted;string_quicksort;100;322;1231
